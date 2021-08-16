@@ -1,0 +1,63 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>		
+<title>Venicle number</title>
+</head>
+<body>
+<div class="well">
+          <a href="https://twitter.com/cyb_detective?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cyb_detective</a><script async src="https://platform.twitter.com/widgets.js"></script>
+    </div>
+<div class="well">
+<h3>Search information about car by venicle numbers of 14 different countries</h3>
+</div>
+<hr>
+<div class="well">
+	<h6>Quick entry with examples:</h6>
+	<hr>
+<label for="cars">Choose a country:</label>
+
+<select onchange="showFields()" name="countries" id="countries">
+  <option value="ZERO">Choose a country</option>
+  <option value="GB">Great Britain</option>
+  <option value="CZ">Czech Republic</option>
+  <option value="FI">Finland</option>
+  <option value="NO">Norway</option>
+  <option value="NL">Netherlands</option>
+  <option value="DN">Denmark</option>
+  <option value="SK">Slovakia</option>
+ 
+</select>
+</br>
+
+<p>Example:</p><p id="examplefield"></p>
+</br>
+
+
+ <input style="display:none" type="text" id="firstsign" name="firstsign">
+</br>
+
+ <button onclick="checkNumber()" class="btn-danger" type="button">Check number</button>
+</div>
+<div class="well">
+	<h6>Services where you have to enter the number directly on the site</h6>
+<a href="https://eteenindus.mnt.ee/public/soidukTaustakontroll.jsf"><button>Estonia</button></a>
+<a href="https://www.nomerogram.ru/"><button>Russia</button></a>
+<a href="https://www.oscaro.es/"><button>Spain</button></a>
+<a href="https://nvis.frsc.gov.ng/VehicleManagement/VerifyPlateNo"><button>Nigeria</button></a>
+<a href="https://siv-auto.fr/"><button>France</button></a>
+<a href="https://www.sevim.it/gratis/targa.asp"><button>Italy</button></a>
+<a href="https://fu-regnr.transportstyrelsen.se/extweb/UppgifterAnnatFordon"><button>Sweden</button></a>
+</div>
+<div class="well">
+	<h6>Search by VIN (worldwide) and US Licencse Plate (USA)</h6>
+	<a href="https://www.autocheck.com/vehiclehistory/autocheck-score"><button>Autocheck</button></a>
+</div>
+<div class="well">
+          <a href="https://twitter.com/cyb_detective?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cyb_detective</a><script async src="https://platform.twitter.com/widgets.js"></script>
+         </div>
+</body>
+</html>
